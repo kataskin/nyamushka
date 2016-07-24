@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FunBox</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <section class="main-content">
+      <h2 class="main-content__title">Ты сегодня покормил кота?</h2>
+      <ul class="main-content__products-list">
+        <li class="product">
+          <input type="checkbox" class="product__checkbox" id="foie-gras" name="product">
+          <div class="product__frame-wrapper">
+            <div class="product__info">
+              <p class="product__intro">
+                <span class="product__intro-default">Сказочное заморское яство</span>
+                <span class="product__intro-selected-hover">Котэ не одобряет?</span>
+              </p>
+              <p class="product__name">
+                <span class="product__name-title">Нямушка</span>
+                <span class="product__kind">с фуа-гра</span>
+              </p>
+              <p class="product__details">
+                <span class="product__dose-count">10</span>
+                <span class="product__dose-text">порций</span><br>
+                <span class="product__mouse-count"></span>
+                <span class="product__mouse-text">мышь</span>
+                в подарок<br>
+                <span class="product__effect"></span>
+              </p>
+              <img src="img/cat.png" class="product__img" alt="Котик">
+              <div class="product__weight">
+                <span class="product__weight-value">0,5</span>
+                <span class="product__weight-unit">кг</span>
+              </div>
+            </div>
+          </div>
+          <p class="product__additional-info">
+            <span class="product__available">
+              Чего сидишь? Порадуй котэ,
+              <span class="product__buy">
+                <span class="product__buy-text">купи</span>.
+              </span>
+            </span>
+            <span class="product__selected">
+              Печень утки разварная с артишоками.
+            </span>
+            <span class="product__disabled">
+              Печалька, с фуа-гра закончился.
+            </span>
+          </p>
+        </li>
+        <li class="product product--selected">
+          <input type="checkbox" class="product__checkbox" id="fish" name="product" checked>
+          <div class="product__frame-wrapper">
+            <div class="product__info">
+              <p class="product__intro">
+                <span class="product__intro-default">Сказочное заморское яство</span>
+                <span class="product__intro-selected-hover">Котэ не одобряет?</span>
+              </p>
+              <p class="product__name">
+                <span class="product__name-title">Нямушка</span>
+                <span class="product__kind">с рыбой</span>
+              </p>
+              <p class="product__details">
+                <span class="product__dose-count">40</span>
+                <span class="product__dose-text">порций</span><br>
+                <span class="product__mouse-count">2</span>
+                <span class="product__mouse-text">мыши</span>
+                в подарок<br>
+                <span class="product__effect"></span>
+              </p>
+              <img src="img/cat.png" class="product__img" alt="Котик">
+              <div class="product__weight">
+                <span class="product__weight-value">2</span>
+                <span class="product__weight-unit">кг</span>
+              </div>
+            </div>
+          </div>
+          <p class="product__additional-info">
+            <span class="product__available">
+              Чего сидишь? Порадуй котэ,
+              <span class="product__buy">
+                <span class="product__buy-text">купи</span>.
+              </span>
+            </span>
+            <span class="product__selected">
+              Головы щучьи с чесноком да свежайшая сёмгушка.
+            </span>
+            <span class="product__disabled">
+              Печалька, с рыбой закончился.
+            </span>
+          </p>
+        </li>
+        <li class="product">
+          <input type="checkbox" class="product__checkbox" id="chicken" name="product" disabled>
+          <div class="product__frame-wrapper">
+            <div class="product__info">
+              <p class="product__intro">
+                <span class="product__intro-default">Сказочное заморское яство</span>
+                <span class="product__intro-selected-hover">Котэ не одобряет?</span>
+              </p>
+              <p class="product__name">
+                <span class="product__name-title">Нямушка</span>
+                <span class="product__kind">с курой</span>
+              </p>
+              <p class="product__details">
+                <span class="product__dose-count">100</span>
+                <span class="product__dose-text">порций</span><br>
+                <span class="product__mouse-count">5</span>
+                <span class="product__mouse-text">мышей</span>
+                в подарок<br>
+                <span class="product__effect">заказчик доволен</span>
+              </p>
+              <img src="img/cat.png" class="product__img" alt="Котик">
+              <div class="product__weight">
+                <span class="product__weight-value">5</span>
+                <span class="product__weight-unit">кг</span>
+              </div>
+            </div>
+          </div>
+          <p class="product__additional-info">
+            <span class="product__available">
+              Чего сидишь? Порадуй котэ,
+              <span class="product__buy">
+                <span class="product__buy-text">купи</span>.
+              </span>
+            </span>
+            <span class="product__selected">
+              Филе из цыплят с трюфелями в бульоне.
+            </span>
+            <span class="product__disabled">
+              Печалька, с курой закончился.
+            </span>
+          </p>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
