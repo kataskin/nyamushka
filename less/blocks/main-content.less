@@ -1,0 +1,36 @@
+.main-content {
+  max-width: 100%;
+}
+
+.main-content__title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Exo2.0-Thin", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.main-content__products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 23px auto 0;
+  padding: 0;
+  @media @tablet-widths {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 950px;
+  }
+  @media @desktop-widths {
+    justify-content: space-between;
+    align-content: center;
+    width: 1120px;
+    max-width: 1120px;
+  }
+}
